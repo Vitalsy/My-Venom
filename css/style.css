@@ -1,0 +1,108 @@
+body {
+  color: #fff;
+}
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  margin-left: 110px;
+}
+.header {
+  min-height: 100vh;
+  background-color: #14131ae5;
+  background-image: url("../img/blood_bgi_2.png"),
+    linear-gradient(0deg, rgba(20, 19, 26, 0.9), rgba(20, 19, 26, 0.9)),
+    url("../img/background2.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right center, center top;
+  background-size: 1024px, cover, cover;
+}
+.venom-bgi_2 {
+  height: 724px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  top: 12px;
+}
+.navbar {
+  display: flex;
+  padding-top: 40px;
+  justify-content: left;
+  align-items: center;
+  margin-left: 110px;
+}
+.mainlink {
+  margin-right: 52px;
+}
+.ul {
+  display: flex;
+}
+.li-item {
+  list-style-type: none;
+}
+.link-item {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+  margin-right: 30px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.dataP {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  margin-top: 80px;
+}
+.venom2 {
+  margin-top: 40px;
+  margin-left: 113px;
+}
+.description {
+  margin-top: 40px;
+  width: 423px;
+}
+.description-p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+}
+.buttons {
+  display: flex;
+  margin-top: 70px;
+  /* width: 423px; */
+  padding-bottom: 144px;
+}
+.linkend {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.linktrailer {
+  position: relative;
+  color: #8d0019;
+  background-color: #fff;
+  padding: 15px;
+  padding-left: 55px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+.linkticket {
+  position: relative;
+  margin-left: 60px;
+  padding-left: 20px;
+}
+.img-linktrailer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 15px;
+  margin-left: 33px;
+}
+.img-linkticket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+}

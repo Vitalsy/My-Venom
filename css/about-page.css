@@ -1,0 +1,136 @@
+body {
+  color: #fff;
+}
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  margin-left: 110px;
+}
+.header {
+  min-height: 100vh;
+  background-color: #14131ae5;
+  background-image: linear-gradient(
+      0deg,
+      rgba(20, 19, 26, 0.9),
+      rgba(20, 19, 26, 0.9)
+    ),
+    url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover, cover;
+}
+.mainlink img {
+  width: 46px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.ul {
+  display: flex;
+  margin-left: 52px;
+}
+.li-item {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.link-item {
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.section-flex {
+  display: flex;
+  align-items: center;
+}
+.main-about-film {
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+.about-film {
+  margin-bottom: 34px;
+  max-width: 423px;
+}
+.title-about-film {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  margin-bottom: 17px;
+}
+.descriptin-about-film {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
+}
+.heroes-list-block {
+  margin-bottom: 33px;
+}
+.heroes-title {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+.flex-lists {
+  display: flex;
+}
+.the-first-list {
+  padding: 0;
+}
+.list-item-heroes {
+  list-style-type: none;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
+}
+.the-second-list {
+  margin-left: 63px;
+}
+.trailer-watch {
+  position: relative;
+  display: inline-block;
+}
+.trailer-video {
+  border-radius: 5px;
+}
+.trailer-video-logo {
+  position: absolute;
+  margin: 80px;
+  left: 80px;
+}
+.flex-about-film {
+  display: flex;
+}
+.venom-poster {
+  border-radius: 5px;
+}
+.lists-poster-about {
+  margin-left: 30px;
+}
+.title-about-poster {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  opacity: 0.8;
+}
+.list-poster {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.list-item-poster {
+  list-style-type: none;
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.8;
+}
